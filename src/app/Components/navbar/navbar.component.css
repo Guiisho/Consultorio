@@ -1,0 +1,32 @@
+body{
+   background: linear-gradient(60deg, #e9cccc, #d4919c, #b35aae);
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.register{
+    background-color: pink;
+    transition: 0.2s;
+}
+
+.register:hover{
+    transition: 0.2s;
+    background-color: rgba(221, 140, 214, 0.829);
+    color: black;
+}
+
+.nav-link{
+    transition: 0.5s;
+    border-bottom: 2px solid transparent; /*Agrega una linea debajo del texto*/
+}
+
+.nav-link:hover{
+    color: rgb(241, 182, 243);
+    transition: 0.5s;
+    border-bottom: 2px solid rgb(241, 182, 243);
+}
