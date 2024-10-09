@@ -1,0 +1,32 @@
+.form-label{
+    color: #fff;
+    text-shadow: 10px 1px 10px black;
+}
+
+.btn{
+    color: #fff;
+    display: flex;
+    background-color: black;
+}
+
+p{
+    color: #fff;
+    margin-top: 10px;
+    text-shadow: 1px 1px 10px black;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 2px #fff;
+    transition: 0.2s;
+}
+
+a:hover{
+    transform: scale(1.1) translateY(-5px);
+}
+
+input{
+    box-shadow: 1px 3px 10px 1px black;
+}
